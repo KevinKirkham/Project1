@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Compound Interest Calculator</title>
+
+        <!-- Favicon -->
+        <!-- Make a new one! -->
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+        <!-- Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Hind Siliguri -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <style>
+        body {
+          background-image: url("img/College_of_Winterhold.png");
+        }
+    </style>
+
+    <body>
+
+        <!-- Is there a way we can get a background color on the calculator itself? That would be a great
+            way to separate it from the rest of the page (which is just the background) -->
+        <form>
+            <h2>Compound Interest Calculator</h2>
+           
+                <label for="principleBox">Principle:&emsp;</label>
+                <input type="text" id="principleBox" placeholder="Principle...">
+                
+                <label for="interestBox">&emsp;&ensp;Interest Rate:&ensp;</label>
+                <input type="text" id="interestBox" placeholder="Interest Rate..."><br>
+                
+                <label for="periodBox">Periods: &emsp;</label>
+                <input type="text" id="periodBox" placeholder="Periods...">
+                
+                <label for="overallTimeBox">&emsp;&emsp;Overall Time:&ensp;</label>
+                <input type="text" id="overallTimeBox" placeholder="Time...">
+
+                <h4 id="calculatedCI"></h4>
+                <p id="CIValue"></p>
+
+                <br><button type="button" id="calculateButton" onclick=calculate()>Calculate</button>
+            
+            <script src="js/compoundInterest.js"></script>
+
+        </form>
+
+    </body>
+</html>

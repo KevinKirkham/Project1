@@ -1,0 +1,73 @@
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:slategrey;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-size: 38px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-size: 24px;
+    text-align: center; 
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    background-color:whitesmoke;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border: slategray;
+    border-style: solid;
+    border-radius: 70%;
+    border-width: thick;
+}
+
+button {
+    background-color:slategray;
+    width: 20%;
+    border: 2px;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    color: whitesmoke;
+    border-radius: 70%;
+    margin-left: 427px;
+}
+
+input[type=text] {
+    width: 30%;
+    padding-left: 0.7%;
+}
+
+input[type=button] {
+    width: 100%;
+    padding: 12px 20px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 6%;
+}
+
+body {
+    background-image: url(College_of_Winterhold.png);
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: -0.003em;
+    font-size: 20px;
+    padding: 70px;
+}
