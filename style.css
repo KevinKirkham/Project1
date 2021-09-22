@@ -42,7 +42,7 @@ button {
     padding-bottom: 0.7%;
     color: whitesmoke;
     border-radius: 70%;
-    margin-left: 427px;
+    margin-left: 542px;
 }
 
 input[type=text] {
@@ -70,4 +70,10 @@ body {
     letter-spacing: -0.003em;
     font-size: 20px;
     padding: 70px;
+}
+
+footer {
+    font-size: 16px;
+    color: aliceblue;
+    padding-top: 100px;
 }
